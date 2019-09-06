@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-05T21:57:40.803-0300</date>
+  <logger>RODRIGO ESTRELA DE SOUSA</logger>
+  <level>FINE</level>
+  <message>File 118210418-RODRIGO ESTRELA DE SOUSA.zip was received. It was sent by RODRIGO ESTRELA DE SOUSA from IP 192.168.15.9 at 05-09-2019 21*57*40</message>
+</record>
