@@ -7,7 +7,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 	@Override
 	public void insertFirst(T element) {
-		
+
 	}
 
 	@Override
