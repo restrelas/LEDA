@@ -77,11 +77,13 @@ public class HashtableClosedAddressImpl<T> extends
 		int eHash = ((HashFunctionClosedAddress<T>) hashFunction).hash(element);
 
 		if(table[eHash] != null){
-			if(((LinkedList) table[eHash]).size() > 1){
-				COLLISIONS--;
+			if(((LinkedList) table[eHash]).contains(element)){
+				if(((LinkedList) table[eHash]).size() > 1){
+					COLLISIONS--;
+				}
+				((LinkedList) table[eHash]).removeFirstOccurrence(element);
+				elements--;
 			}
-			((LinkedList) table[eHash]).removeFirstOccurrence(element);
-			elements--;
 		}
 	}
 
